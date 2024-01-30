@@ -1,5 +1,3 @@
-import CalculatorLogic from "./CalculatorLogic";
-
 function CalculatorDisplay({
   display,
   inputDigit,

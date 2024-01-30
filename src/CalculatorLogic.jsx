@@ -1,7 +1,6 @@
 import "./App.css";
 import { useState } from "react";
 import { useEffect } from "react";
-import CalculatorDisplay from "./CalculatorDisplay";
 
 function CalculatorLogic() {
   const [calculatorString, setCalculatorString] = useState("");

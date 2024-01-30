@@ -1,12 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./CalculatorLogic.jsx";
-import CalculatorLogic from "./CalculatorLogic.jsx";
+import CalculatorStringLogic from "./CalculatorStringLogic.jsx";
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <App />
-    <CalculatorLogic />
+    <CalculatorStringLogic />
   </React.StrictMode>
 );
